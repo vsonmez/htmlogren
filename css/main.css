@@ -241,6 +241,13 @@ code.inline {
 .main_menu a + a {
   border-top: 1px solid #476e7f;
 }
+.main_menu a.disabled {
+  pointer-events: none;
+  opacity: .6;
+}
+.main_menu a.selected {
+  color: #FFEB3B;
+}
 .main_content {
   padding: 67px 16px 16px;
   margin: 0 0 0 256px;
@@ -280,4 +287,11 @@ tbody tr:first-child th ~ td {
 }
 .table--striped tbody tr:nth-child(odd) {
   background: rgba(209, 219, 189, 0.5);
+}
+.styledList {
+  padding: 16px 16px 16px 24px;
+  list-style-type: circle;
+}
+.styledList li + li {
+  margin-top: 8px;
 }
