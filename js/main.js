@@ -53,7 +53,7 @@ var menuData = [
     },
     {
         text: "HTML Biçimleri",
-        url: "#"
+        url: "html_bicimleri.html"
     },
     {
         text: "HTML Formları",
