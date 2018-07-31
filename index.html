@@ -1,14 +1,175 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,500&amp;subset=latin-ext" rel="stylesheet">
     <title>HTML ÖĞREN - HTML'in tanımı</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header class="site_header">
+        <h1 title="HTML'in tanımı">HTML ÖĞREN - HTML'in tanımı</h1>
+    </header>
+    <nav class="main_menu">
+        <a href="#">HTML'in Tanımı</a>
+        <a href="#">HTML Yazma Yöntemleri</a>
+        <a href="#">HTML Elemanları</a>
+        <a href="#">HTML Öznitelikleri</a>
+        <a href="#">HTML Başıkları</a>
+        <a href="#">HTML Paragrafları</a>
+        <a href="#">HTML Bağlantıları/Linkleri</a>
+        <a href="#">HTML Görüntüleri</a>
+        <a href="#">HTML Listeleri</a>
+        <a href="#">HTML Tabloları</a>
+        <a href="#">HTML Yorumları</a>
+        <a href="#">HTML Biçimleri</a>
+        <a href="#">HTML CSS Sınıfları</a>
+        <a href="#">HTML ID'leri</a>
+        <a href="#">HTML Formları</a>
+        <a href="#">HTML Form Elemanları</a>
+        <a href="#">HTML Form Eleman Tipleri</a>
+        <a href="#">HTML Form Eleman Öznitelikleri</a>
+    </nav>
+    <div class="main_content">
+        <article>
+            <h2 title="HTML Nedir?">
+                <i class="fa fa-html5"></i>
+                HTML Nedir?
+            </h2>
+            <p>
+                HTML, Web sayfaları oluşturmak için kullanılan standart bir döküman biçimlendirme dilidir. HTML dökümanlar ".html" ya da ".htm" dosya uzantısına sahiptir.
+            </p>
+            <p>
+                <b>Örnek:</b> "benimwebsayfam.html" ya da "benimwebsayfam.htm". Daha çok ".html" tercih edilir.
+            </p>
+            <p title="HTML'nin açılımı">
+                <u>HTML'nin açılımı:</u>
+                Hyper Text Markup Language olarak geçmektedir. HTML, web sayfalarının yapısını oluşturmak için kullanılır ve HTML öğeleri sayfaların yapı taşlarıdır.
+            </p>
+            <p>
+                HTML öğeleri etiketlerle gösterilir, bu etiketler "p", "table", "h1", "h2", "div", "section" gibi isimler alırlar.
+            </p>
+            <p>
+                Tarayıcılar HTML etiketlerini göstermez. Tarayıcılar bu etiketleri yorumlar ve sayfanın nasıl görüneceğini anlamak için kullanır.
+            </p>
+            <h3 title="Örnek Bir HTML Dokümanı">
+                Örnek Bir HTML Dokümanı
+            </h3>
+            <code>
+                &lt!DOCTYPE html&gt
+                &lthtml&gt
+                    &lthead&gt
+                        &lttitle&gtPage Title'&lt/title&gt
+                    &lt/head&gt
+                    &ltbody&gt
+                        tarayıcıda görüntülenecek içerik
+                    &lt/body&gt
+                &lt/html&gt
+            </code>
+            <h3>Örneği İnceleyelim:</h3>
+            <ul>
+                <li>
+                    <code>&lt!DOCTYPE html&gt</code> Dökümanın HTML5 sürüm standartlarında olduğunu belirtir. ( HTML sürümleri ile ilgili detaylı açıklamalar <a title="DOCTYPE Tanımı" href="#doctype" rel="bookmark">alt bölümlerde</a> mevcut. )
+                </li>
+                <li>
+                    <code>&lthtml&gt</code> Bir HTML dökümanı olduğunu belirtir.
+                </li>
+                <li>
+                    <code>&lthead&gt</code> Döküman ile ilgili meta bilgilerini barındırır. (<em>ileride detaylı inceleyeceğiz</em>)
+                </li>
+                <li>
+                    <code>&lttitle&gt</code> Dökümanın başlığını belirtir. ( <a title="Title Görseli" href="#htmlsayfayapisi" rel="bookmark">alt bölümlerde.</a> görsel ile anlatılmıştır )
+                </li>
+                <li>
+                    <code>&ltbody&gt</code> Tarayıcı tarafından yorumlanıp görüntülenecek HTML etiketlerini içinde barındırır.( <a title="Body Görseli" href="#htmlsayfayapisi" rel="bookmark">alt bölümlerde</a> görsel ile anlatılmıştır. )
+                </li>
+            </ul>
+        </article>
+        <article>
+            <h2 title="HTML Etiketleri"><i class="fa fa-code"></i>HTML Etiketleri</h2>
+            <p>
+                <u>HTML etiketleri köşeli ayraçlarla(&lt &gt) çevrili öğe adlarıdır:</u><code class="inline">&ltetiket&gt içerik... &lt/etiket&gt</code>
+            </p>
+            <p>
+                HTML etiketleri genellikle <code class="inline">&ltp&gt</code> ve <code class="inline">&lt/p&gt</code> gibi çiftler halinde belirtilir. Bu çiftlerde ilk etiket başlangıç ​​etiketidir, ikinci etiket bitiş etiketidir. Bitiş etiketi başlangıç ​​etiketi gibi yazılır, ancak etiket adının önüne eğik çizgi <code class="inline">/</code> eklenir.
+            </p>
+            <p class="warning-box">
+                <u>Bunu Aklından Çıkartma:</u> Başlama etiketi <b>açılış etiketi</b> , sonlandırma etiketi <b>kapanış etiketi</b> olarak adlandırılır.
+            </p>
+        </article>
+        <article>
+            <h2 title="İnternet Tarayıcıları"><i class="fa fa-window-maximize"></i>İnternet Tarayıcıları</h2>
+            <p>
+                Bir web tarayıcısının (Chrome, Internet Explorer, Firefox, Safari) amacı, HTML dökümanlarını okumak ve görüntülemektir. Tarayıcı, HTML etiketlerini görüntülemez, ancak bunları belgenin nasıl görüntüleneceğini belirlemek için kullanır.
+            </p>
+        </article>
+        <article id="htmlsayfayapisi">
+            <h2 title="HTML Sayfa Yapısı"><i class="fa fa-file-text-o"></i>HTML Sayfa Yapısı</h2>
+            <p>
+                Aşağıda, bir HTML sayfa yapısının görselleştirilmesi verilmiştir:
+            </p>
+            <figure>
+                <img src="img/html-view.jpg" title="HTML sayfa yapısını anlatan bir görseldir. Title ve body etiketlerinin kullanıldığı yeri gösterir.">
+            </figure>
+            <p class="warning-box">
+                <u>Bunu Aklından Çıkartma:</u> Yalnızca <code class="inline">&ltbody&gt</code> bölümündeki içerik bir tarayıcıda görüntülenir.
+            </p>
+        </article>
+        <article id="doctype">
+            <h2 title="DOCTYPE Tanımı">DOCTYPE Tanımı</h2>
+            <p>
+                <code class="inline">&lt!DOCTYPE&gt</code> bildirimi belge türünü ve tarayıcıların web sayfalarını doğru şekilde görüntülemelerine yardımcı olur. Sayfanın üstünde (herhangi bir HTML etiketinden önce) yalnızca bir kez belirtilir.
+            </p>
+            <p>
+                <code class="inline">&lt!DOCTYPE&gt</code> bildirimi büyük / küçük harfe duyarlı değildir.
+            </p>
+            <p>
+              <u>HTML için <code class="inline">&lt!DOCTYPE&gt</code> bildirimi şöyledir:</u>
+            </p>
+            <code>&lt!DOCTYPE html&gt</code>
+        </article>
+        <article class="main-content__part">
+            <h2 title="HTML Sürümleri"><i class="fa fa-code-fork"></i>HTML Sürümleri</h2>
+            <p>
+                <u>Webin ilk günlerinden beri birçok HTML sürümü yayınlanmıştır:</u>
+            </p>
+            <table class="table--striped">
+                <thead>
+                    <tr>
+                        <th>Sürüm</th>
+                        <th>Yıl</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>1991</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 2.0</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 3.2</td>
+                        <td>1997</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 4.01</td>
+                        <td>1999</td>
+                    </tr>
+                    <tr>
+                        <td>XHTML</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>2014</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </div>
 </body>
 </html>
