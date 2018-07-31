@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin: 8px 0;
+}
+td,
+th {
+  padding: 8px;
+  text-align: left;
+}
+.inline {
+  display: inline-block;
+}
+body {
+  color: rgba(0, 0, 0, 0.87);
+}
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+}
+*:not(.fa) {
+  font-family: 'Exo 2', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 16px 0;
+  display: block;
+}
+h1 .fa,
+h2 .fa,
+h3 .fa,
+h4 .fa,
+h5 .fa,
+h6 .fa {
+  color: rgba(0, 0, 0, 0.55);
+  margin: 0 8px 0 0;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+p {
+  padding: 8px;
+}
+code {
+  white-space: pre-wrap;
+  background: #e6e6e6;
+  display: block;
+  padding: 8px;
+  margin: 16px 0;
+  font-family: monospace !important;
+}
+code.inline {
+  margin: 0 4px;
+}
+.warning-box {
+  border-left: 8px solid #3E606F;
+  background: rgba(62, 96, 111, 0.2);
+  color: #070b0d;
+  margin: 16px 0;
+  padding: 16px;
+}
+.warning-box a {
+  font-weight: 400;
+}
+.site_header {
+  background: #193441;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 16px;
+}
+.site_header h1 {
+  margin: 0;
+}
+.main_menu {
+  position: fixed;
+  left: 0;
+  top: 67px;
+  width: 256px;
+  bottom: 0;
+  background: #3E606F;
+  padding: 3px;
+  overflow: auto;
+}
+.main_menu a {
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
+  padding: 16px 8px;
+  text-decoration: none;
+}
+.main_menu a:hover {
+  color: #fff;
+}
+.main_menu a + a {
+  border-top: 1px solid #476e7f;
+}
+.main_content {
+  padding: 67px 16px 16px;
+  margin: 0 0 0 256px;
+}
+caption {
+  border-bottom: 0.1rem solid #e1e1e1;
+  font-weight: 500;
+}
+th {
+  font-weight: 400;
+}
+th + td {
+  border-left: 0.1rem solid #e1e1e1;
+}
+tbody tr th {
+  vertical-align: middle;
+}
+tbody tr:first-child th {
+  border-top: 0.1rem solid #e1e1e1 !important;
+}
+tbody tr:first-child th ~ td {
+  border-top: 0.1rem solid #e1e1e1 !important;
+}
+.table--striped thead tr {
+  background: #3E606F;
+}
+.table--striped thead tr th,
+.table--striped tbody tr td {
+  padding-left: 1.5rem;
+  color: #FCFFF5;
+}
+.table--striped tbody tr {
+  background: rgba(209, 219, 189, 0.25);
+}
+.table--striped tbody tr td {
+  color: inherit;
+}
+.table--striped tbody tr:nth-child(odd) {
+  background: rgba(209, 219, 189, 0.5);
+}
