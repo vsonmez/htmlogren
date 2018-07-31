@@ -44,15 +44,15 @@ var menuData = [
         url: "html_yorumlari.html"
     },
     {
-        text: "HTML Biçimleri",
-        url: "#"
-    },
-    {
         text: "HTML CSS Sınıfları",
-        url: "#"
+        url: "html_css_siniflari.html"
     },
     {
         text: "HTML ID'leri",
+        url: "html_idleri.html"
+    },
+    {
+        text: "HTML Biçimleri",
         url: "#"
     },
     {
