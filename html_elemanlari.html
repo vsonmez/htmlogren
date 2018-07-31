@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,500&amp;subset=latin-ext" rel="stylesheet">
+    <title>HTML ÖĞREN - HTML Elemanları</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body rel="html_elemanlari">
+    <header class="site_header">
+        <h1 title="HTML'in tanımı">HTML ÖĞREN - HTML Elemanları</h1>
+    </header>
+    <nav class="main_menu" id="main_menu"></nav>
+    <div class="main_content">
+        <h1 title="HTML Elemanları">HTML Elemanları</h1>
+        <h2 title="İç İçe HTML Öğeleri">İç İçe HTML Öğeleri</h2>
+        <article class="main-content__part">
+            <p>
+                HTML iç içe tanımlanabilir. Bir HTML dökümanı iç içe html öğelerinden oluşur.
+            </p>
+            <code>
+                &lt!DOCTYPE html&gt
+                &lthtml&gt
+                    &lthead&gt
+                        &lttitle&gtBenim Web Sayfam&lt/title&gt
+                    &lt/head&gt
+                    &ltbody&gt
+                        &ltp&gtMerhaba Dünya&lt/p&gt
+                    &lt/body&gt
+                &lt/html&gt
+            </code>
+            <h3>Örneği İnceleyelim:</h3>
+            <ul>
+                <li><code>&lt!DOCTYPE html&gt</code> Dökümanın en başında belirtilmesi gerekir ve kapanış etiketi yoktur.</li>
+                <li><code>&lthtml&gt</code> Bir HTML dökümanı olduğunu belirtir ve kapanış etiketi vardır. Diğer tüm HTMl elemanlarını içerisinde barındırır.</li>
+                <li><code>&lthead&gt</code> Döküman ile ilgili meta bilgilerini barındırır.</li>
+                <li><code>&lttitle&gt</code> Dökümanın başlığını belirtir ve &lthead&gt elemanının içerisinde bulunur.</li>
+                <li><code>&ltbody&gt</code> Tarayıcı tarafından yorumlanıp görüntülenecek HTML etiketlerini içinde barındırır.</li>
+                <li><code>&ltp&gt</code> Paragrafları belirtmek için kullanılır ve &ltbody&gt elemanının içerisinde bulunur.</li>
+            </ul>
+            <p class="warning-box">
+                <u>Bunu Aklından Çıkartma:</u> Kapanış etiketini unutsanız bile bazı HTML elemanları doğru görüntülenebilir. Fakat bu doğru bir yöntem değildir, tarayıcıların bazılarında ise doğru görüntülenmeyebilir.
+            </p>
+            <p class="warning-box">
+                <u>Bunu Aklından Çıkartma:</u> HTML etiketlerini her zaman küçük harf ile yazmalısın.
+            </p>
+      </article>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

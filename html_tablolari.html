@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,500&amp;subset=latin-ext" rel="stylesheet">
+    <title>HTML ÖĞREN - HTML Tabloları</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body rel="html_tablolari">
+    <header class="site_header">
+        <h1 title="HTML'in tanımı">HTML ÖĞREN - HTML Tabloları</h1>
+    </header>
+    <nav class="main_menu" id="main_menu"></nav>
+    <div class="main_content">
+        <h1 title="HTML Tabloları">HTML Tabloları</h1>
+      <article class="main-content__part">
+        <p>HTML tabloları, tekrar eden verileri göstermek amacıyla kullanılır. Veri gösterme bakımından <a href="https://products.office.com/tr-TR/excel?legRedir=true&amp;WT.z_clid=O16_Home&amp;CorrelationId=b1b13519-85bf-495a-b01e-21a31674fd81" rel="external">Excel </a>tablolarından farkı yoktur.</p><strong>Bir HTML tablosu:</strong>
+        <ul class="styledList">
+          <li> <code class="inline">&lttable&gt </code>etiketi ile başlar.</li>
+          <li> Tablo başlıkları  <code  class="inline">&ltthead&gt </code>etiketi içerisinde bulunur.
+            <ul>
+              <li> <code class="inline">&ltth&gt </code>etiketi ile tablo başlıkları belirlenir.</li>
+            </ul>
+          </li>
+          <li>Tablo verileri  <code class="inline">&lttbody&gt </code>etiketi içerisinde bulunur.
+            <ul>
+              <li> <code class="inline">&lttd&gt </code>etiketi ile tablo verileri belirlenir.</li>
+            </ul>
+          </li>
+          <li>Her satır <code class="inline">&lttr&gt </code>etiketi ile tanımlanır.</li>
+        </ul>
+        <pre><code>&lttable&gt
+  &lt thead &gt
+      &lttr&gt
+          &ltth&gt
+              Şirket Adı
+          &lt/th&gt
+          &ltth&gt
+              Adresi
+          &lt/th&gt
+          &ltth&gt
+              Telefon No
+          &lt/th&gt
+      &lt/tr&gt
+  &lt/thead&gt
+  &lttbody&gt
+      &lttr&gt
+          &lttd&gt
+              Lorem Ipsum
+          &lt/td&gt
+          &lttd&gt
+              Proin interdum, eros vel porttitor malesuada, nisl orci rutrum justo
+          &lt/td&gt
+          &lttd&gt
+              +90 000 000 00 00
+          &lt/td&gt
+  &lt/tbody&gt
+&lt/table&gt</code></pre>
+        <p class="warning-box">
+          <u>Bunu Aklından Çıkartma: </u><b>&lttd&gt </b>etiketleri tabloların veri kapsayıcılarıdır. Bunlar her türlü HTML elementi içerebilir.
+        </p>
+        <div id="codeEditor"></div>
+        <hr>
+        <h2 title="Birden Fazla Sütuna Genişleyen Hürceler (colspan)">Birden Fazla Sütuna Genişleyen Hürceler (colspan)</h2>
+        <p>Hürceleri (td/th) birden fazla sütuna yaymak için <b>colspan </b>özelliği kullanılır.</p>
+        <div id="codeEditor1"></div>
+        <hr>
+        <h2 title="Birden Fazla Satıra Genişleyen Hürceler (rowspan)">Birden Fazla Satıra Genişleyen Hürceler (rowspan)</h2>
+        <p>Hürceleri (td/th) birden fazla satıra yaymak için <b>rowspan </b>özelliği kullanılır.</p>
+        <div id="codeEditor2"></div>
+        <hr>
+        <h2 title="Başlık Ekleme">Başlık Ekleme</h2>
+        <p>Bir tabloya başlık ekleme için <b> &ltcaption&gt </b>etiketi kullanılır.</p>
+        <div id="codeEditor3"></div>
+      </article>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
