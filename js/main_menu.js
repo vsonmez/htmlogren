@@ -65,12 +65,8 @@ var menuData = [
     },
     {
         text: "HTML Form Eleman Tipleri",
-        url: "#"
-    },
-    {
-        text: "HTML Form Eleman Öznitelikleri",
-        url: "#"
-    },
+        url: "html_form_tipleri.html"
+    }
 ];
 var MainMenu = function (container) {
     this.container = document.getElementById(container);
