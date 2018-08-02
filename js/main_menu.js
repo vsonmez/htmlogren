@@ -57,11 +57,11 @@ var menuData = [
     },
     {
         text: "HTML Formları",
-        url: "#"
+        url: "html_formlari.html"
     },
     {
         text: "HTML Form Elemanları",
-        url: "#"
+        url: "html_form_elemanlari.html"
     },
     {
         text: "HTML Form Eleman Tipleri",
