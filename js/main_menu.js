@@ -73,6 +73,7 @@ var MainMenu = function (container) {
 };
 
 MainMenu.prototype.init = function(){
+    var self = this;
     var createMenuItem = function (item) {
         var link = document.createElement("a");
         link.setAttribute("href", item.url);
@@ -90,4 +91,8 @@ MainMenu.prototype.init = function(){
     for (menuIndex = 0; menuIndex < menuData.length; menuIndex += 1) {
         this.container.appendChild(createMenuItem(menuData[menuIndex]));
     }
+    var main_menu_toggle = document.getElementById("main_menu_toggle");
+    main_menu_toggle.addEventListener("click", function () {
+        self.container.classList.toggle("open");
+    });
 };
